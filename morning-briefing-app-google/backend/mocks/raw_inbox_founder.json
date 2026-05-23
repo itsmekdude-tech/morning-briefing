@@ -1,0 +1,28 @@
+{
+  "user": {
+    "displayName": "Alex",
+    "email": "alex@startup.io",
+    "timezone": "America/Los_Angeles"
+  },
+  "generatedAt": "2026-05-23T06:30:00-07:00",
+  "calendar": [
+    { "id": "evt_a1", "title": "Investor sync — Sequoia", "start": "2026-05-23T08:00:00-07:00", "end": "2026-05-23T08:45:00-07:00", "location": "Zoom", "attendees": 3 },
+    { "id": "evt_a2", "title": "Eng all-hands", "start": "2026-05-23T09:00:00-07:00", "end": "2026-05-23T10:00:00-07:00", "location": "Office", "attendees": 22 },
+    { "id": "evt_a3", "title": "Customer call — Acme", "start": "2026-05-23T11:00:00-07:00", "end": "2026-05-23T11:30:00-07:00", "location": "Zoom", "attendees": 4 },
+    { "id": "evt_a4", "title": "Lunch — recruit candidate", "start": "2026-05-23T12:30:00-07:00", "end": "2026-05-23T13:30:00-07:00", "location": "Bird Provisions", "attendees": 2 },
+    { "id": "evt_a5", "title": "Roadmap review", "start": "2026-05-23T14:00:00-07:00", "end": "2026-05-23T15:30:00-07:00", "location": "Conf B", "attendees": 8 },
+    { "id": "evt_a6", "title": "Board prep with CFO", "start": "2026-05-23T16:00:00-07:00", "end": "2026-05-23T17:00:00-07:00", "location": "Office", "attendees": 2 }
+  ],
+  "messages": [
+    { "id": "fm_1", "from": {"name": "Naomi @ Sequoia", "email": "naomi@sequoiacap.com"}, "subject": "Cap table — quick ask before Friday", "snippet": "Hi Alex — could you send the updated cap table?", "body": "Hi Alex — could you send the updated cap table reflecting the SAFE conversions before our call Friday?", "receivedAt": "2026-05-23T05:50:00-07:00" },
+    { "id": "fm_2", "from": {"name": "Ben @ Acme", "email": "ben@acme.com"}, "subject": "Expansion proposal — questions on pricing", "snippet": "Thanks for sending this over. Two questions on the enterprise tier…", "body": "Thanks for sending this over. Two questions on the enterprise tier before our legal team reviews — can you confirm seat-based pricing scales for orgs >500?", "receivedAt": "2026-05-23T05:30:00-07:00" },
+    { "id": "fm_3", "from": {"name": "Priya (CFO)", "email": "cfo@startup.io"}, "subject": "Board deck — final draft attached", "snippet": "Final draft of Tuesday's board deck.", "body": "Final draft of Tuesday's board deck. I made the changes you suggested re burn rate framing. Please review by tomorrow.", "receivedAt": "2026-05-23T04:45:00-07:00" },
+    { "id": "fm_4", "from": {"name": "Jordan (People)", "email": "people@startup.io"}, "subject": "Staff Eng candidate — offer ready for signature", "snippet": "Candidate verbally accepted. Offer letter ready in DocuSign for your signature.", "body": "Candidate verbally accepted. Offer letter ready in DocuSign for your signature. Need it today.", "receivedAt": "2026-05-23T04:00:00-07:00" },
+    { "id": "fm_5", "from": {"name": "Sam (Product)", "email": "product@startup.io"}, "subject": "v2 launch date — need a decision this week", "snippet": "Three options on the table.", "body": "We have three options on the table. I've summarized them in the linked doc with trade-offs. Need your call by Friday.", "receivedAt": "2026-05-23T03:20:00-07:00" },
+    { "id": "fm_6", "from": {"name": "GitHub", "email": "notifications@github.com"}, "subject": "12 PRs need your review across 4 repos", "snippet": "Backlog continues to grow.", "body": "Backlog continues to grow.", "receivedAt": "2026-05-23T05:00:00-07:00", "gmailCategoryHint": "updates" },
+    { "id": "fm_7", "from": {"name": "PagerDuty", "email": "no-reply@pagerduty.com"}, "subject": "Incident #4882 resolved after 47m", "snippet": "Auth service degradation.", "body": "Auth service degradation. Root cause: rate-limiter misconfig. Postmortem due Friday.", "receivedAt": "2026-05-23T03:00:00-07:00", "gmailCategoryHint": "updates" },
+    { "id": "fm_8", "from": {"name": "AWS", "email": "billing@aws.amazon.com"}, "subject": "May invoice — $48,212 (up 12% MoM)", "snippet": "Monthly AWS bill is ready.", "body": "Monthly AWS bill is ready.", "receivedAt": "2026-05-23T01:00:00-07:00", "gmailCategoryHint": "promotions" },
+    { "id": "fm_9", "from": {"name": "yc-founders", "email": "list@ycombinator.com"}, "subject": "Series B benchmarks discussion — 31 replies", "snippet": "Founders sharing multiples and burn.", "body": "Founders sharing multiples and burn at Series B.", "receivedAt": "2026-05-23T05:30:00-07:00", "gmailCategoryHint": "forums" },
+    { "id": "fm_10", "from": {"name": "LinkedIn", "email": "no-reply@linkedin.com"}, "subject": "12 people viewed your profile", "snippet": "Including 3 recruiters.", "body": "Including 3 recruiters.", "receivedAt": "2026-05-22T22:00:00-07:00", "gmailCategoryHint": "updates" }
+  ]
+}

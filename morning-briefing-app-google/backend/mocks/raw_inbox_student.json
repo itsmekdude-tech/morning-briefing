@@ -1,0 +1,20 @@
+{
+  "user": {
+    "displayName": "Maya",
+    "email": "maya@university.edu",
+    "timezone": "America/Chicago"
+  },
+  "generatedAt": "2026-05-23T07:30:00-05:00",
+  "calendar": [
+    { "id": "evt_s1", "title": "CS 374 lecture", "start": "2026-05-23T10:00:00-05:00", "end": "2026-05-23T11:15:00-05:00", "location": "Siebel 1404", "attendees": 60 },
+    { "id": "evt_s2", "title": "Study group — algorithms", "start": "2026-05-23T15:00:00-05:00", "end": "2026-05-23T17:00:00-05:00", "location": "Library 3rd floor", "attendees": 4 }
+  ],
+  "messages": [
+    { "id": "sm_1", "from": {"name": "Prof. Wallace", "email": "wallace@university.edu"}, "subject": "Re: project proposal feedback", "snippet": "Maya, your proposal looks solid overall. Two small suggestions before you start implementing…", "body": "Maya, your proposal looks solid overall. Two small suggestions before you start implementing — please incorporate them by next Tuesday.", "receivedAt": "2026-05-23T06:00:00-05:00" },
+    { "id": "sm_2", "from": {"name": "Mom", "email": "mom@family.net"}, "subject": "Sending you some cookies!", "snippet": "Hi sweetie — the package should arrive Friday.", "body": "Hi sweetie — the package should arrive Friday. Don't eat them all in one sitting!", "receivedAt": "2026-05-22T22:00:00-05:00" },
+    { "id": "sm_3", "from": {"name": "Canvas", "email": "no-reply@canvas.edu"}, "subject": "Weekly course summary", "snippet": "Assignments due this week.", "body": "Assignments due this week.", "receivedAt": "2026-05-22T22:00:00-05:00", "gmailCategoryHint": "updates" },
+    { "id": "sm_4", "from": {"name": "LinkedIn", "email": "no-reply@linkedin.com"}, "subject": "5 jobs match your search", "snippet": "Internship listings for CS students.", "body": "Internship listings for CS students.", "receivedAt": "2026-05-22T21:00:00-05:00", "gmailCategoryHint": "updates" },
+    { "id": "sm_5", "from": {"name": "Spotify Student", "email": "billing@spotify.com"}, "subject": "Renewal in 7 days — $4.99", "snippet": "Your student plan renews May 30.", "body": "Your student plan renews May 30 for $4.99.", "receivedAt": "2026-05-23T05:00:00-05:00", "gmailCategoryHint": "promotions" },
+    { "id": "sm_6", "from": {"name": "Chipotle", "email": "promos@chipotle.com"}, "subject": "Free guac with code FREEGUAC", "snippet": "This week only.", "body": "Free guac with code FREEGUAC, this week only.", "receivedAt": "2026-05-23T01:00:00-05:00", "gmailCategoryHint": "promotions" }
+  ]
+}

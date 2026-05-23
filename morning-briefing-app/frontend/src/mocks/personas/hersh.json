@@ -1,0 +1,251 @@
+{
+  "user": {
+    "displayName": "Hersh",
+    "email": "hersh@appemble.com",
+    "timezone": "America/New_York"
+  },
+  "generatedAt": "2026-05-23T07:02:00-04:00",
+  "calendar": [
+    {
+      "id": "evt_1",
+      "title": "Standup",
+      "start": "2026-05-23T09:00:00-04:00",
+      "end": "2026-05-23T09:15:00-04:00",
+      "location": "Zoom",
+      "attendees": 6
+    },
+    {
+      "id": "evt_2",
+      "title": "Design review",
+      "start": "2026-05-23T10:30:00-04:00",
+      "end": "2026-05-23T11:30:00-04:00",
+      "location": "Room 4",
+      "attendees": 4
+    },
+    {
+      "id": "evt_3",
+      "title": "Lunch with Maya",
+      "start": "2026-05-23T13:00:00-04:00",
+      "end": "2026-05-23T14:00:00-04:00",
+      "location": "Cafe Reverie",
+      "attendees": 2
+    },
+    {
+      "id": "evt_4",
+      "title": "1:1 with Manan",
+      "start": "2026-05-23T15:00:00-04:00",
+      "end": "2026-05-23T15:30:00-04:00",
+      "location": "Zoom",
+      "attendees": 2
+    },
+    {
+      "id": "evt_5",
+      "title": "Demo prep",
+      "start": "2026-05-23T17:00:00-04:00",
+      "end": "2026-05-23T18:00:00-04:00",
+      "location": "Focus time",
+      "attendees": 1
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "act_1",
+      "ask": "Reply to Priya re Q3 deck",
+      "due": "2026-05-23",
+      "from": "priya@bigco.com",
+      "sourceMsgId": "msg_42",
+      "confidence": 0.92,
+      "completed": false
+    },
+    {
+      "id": "act_2",
+      "ask": "Send invoice to BigCo",
+      "due": "2026-05-26",
+      "from": "accounts@bigco.com",
+      "sourceMsgId": "msg_44",
+      "confidence": 0.88,
+      "completed": false
+    },
+    {
+      "id": "act_3",
+      "ask": "Approve PR #482",
+      "from": "notifications@github.com",
+      "sourceMsgId": "msg_61",
+      "confidence": 0.81,
+      "completed": false
+    },
+    {
+      "id": "act_4",
+      "ask": "RSVP to all-hands",
+      "due": "2026-05-28",
+      "from": "people@appemble.com",
+      "sourceMsgId": "msg_55",
+      "confidence": 0.79,
+      "completed": false
+    },
+    {
+      "id": "act_5",
+      "ask": "Confirm flight for next week",
+      "from": "noreply@delta.com",
+      "confidence": 0.71,
+      "completed": true
+    }
+  ],
+  "sections": {
+    "primary": {
+      "newCount": 5,
+      "filteredAsNoise": 0,
+      "items": [
+        {
+          "id": "msg_42",
+          "from": { "name": "Priya Shah", "email": "priya@bigco.com" },
+          "subject": "Q3 deck — needs your review by EOD",
+          "snippet": "Hey Hersh, attaching v4 of the deck. I incorporated the feedback from Tuesday and would love your sign-off before I send to the board…",
+          "body": "Hey Hersh,\n\nAttaching v4 of the deck. I incorporated the feedback from Tuesday — specifically the slide on retention cohorts and the new pricing page.\n\nWould love your sign-off before I send to the board tomorrow morning. If you have any final thoughts, just leave comments in the doc.\n\nThanks,\nP.",
+          "receivedAt": "2026-05-23T06:14:00-04:00",
+          "isUseful": true,
+          "isNoise": false,
+          "read": false
+        },
+        {
+          "id": "msg_43",
+          "from": { "name": "Manan B.", "email": "manan@appemble.com" },
+          "subject": "re: integration timeline",
+          "snippet": "Hey, was thinking about what you said yesterday and I think the realistic path is to ship the read-only flow first and layer in writes after…",
+          "receivedAt": "2026-05-23T05:48:00-04:00",
+          "isUseful": false,
+          "isNoise": false,
+          "read": false
+        },
+        {
+          "id": "msg_44",
+          "from": { "name": "Accounts @ BigCo", "email": "accounts@bigco.com" },
+          "subject": "BigCo invoice overdue",
+          "snippet": "This is a reminder that invoice #4821 is now 14 days past due. Please remit payment at your earliest convenience or reach out if there's…",
+          "receivedAt": "2026-05-23T02:11:00-04:00",
+          "isUseful": false,
+          "isNoise": false,
+          "read": false
+        },
+        {
+          "id": "msg_45",
+          "from": { "name": "Aunt Rina", "email": "rina@family.net" },
+          "subject": "Photos from the trip",
+          "snippet": "Hi sweetheart, finally got around to uploading the photos from the trip. There's a great one of you and your sister on the beach…",
+          "receivedAt": "2026-05-22T23:11:00-04:00",
+          "isUseful": false,
+          "isNoise": false,
+          "read": true
+        },
+        {
+          "id": "msg_46",
+          "from": { "name": "Stripe", "email": "noreply@stripe.com" },
+          "subject": "Payout of $4,210 scheduled May 24",
+          "snippet": "Your payout is on the way. We'll send $4,210.00 USD to your account ending in 1234 on May 24, 2026…",
+          "receivedAt": "2026-05-22T21:00:00-04:00",
+          "isUseful": false,
+          "isNoise": false,
+          "read": true
+        }
+      ]
+    },
+    "updates": {
+      "newCount": 15,
+      "filteredAsNoise": 12,
+      "items": [
+        {
+          "id": "upd_1",
+          "from": { "name": "GitHub", "email": "notifications@github.com" },
+          "subject": "3 PRs need your review",
+          "snippet": "appemble/core has 3 open PRs awaiting your review.",
+          "receivedAt": "2026-05-23T04:12:00-04:00",
+          "isUseful": true,
+          "isNoise": false
+        },
+        {
+          "id": "upd_2",
+          "from": { "name": "Linear", "email": "notifications@linear.app" },
+          "subject": "2 issues assigned to you",
+          "snippet": "APP-204 and APP-211 were assigned to you by Manan.",
+          "receivedAt": "2026-05-23T03:45:00-04:00",
+          "isUseful": false,
+          "isNoise": false
+        },
+        {
+          "id": "upd_3",
+          "from": { "name": "Vercel", "email": "no-reply@vercel.com" },
+          "subject": "Deploy failed on main branch",
+          "snippet": "Build #918 for appemble-web failed at the type-check step.",
+          "receivedAt": "2026-05-22T23:30:00-04:00",
+          "isUseful": true,
+          "isNoise": false
+        }
+      ],
+      "filteredItems": [
+        { "id": "upd_n1", "from": { "name": "LinkedIn", "email": "no-reply@linkedin.com" }, "subject": "You appeared in 4 searches", "snippet": "", "receivedAt": "2026-05-22T22:00:00-04:00", "isUseful": false, "isNoise": true },
+        { "id": "upd_n2", "from": { "name": "Substack", "email": "no-reply@substack.com" }, "subject": "Weekly digest from 12 authors", "snippet": "", "receivedAt": "2026-05-22T21:00:00-04:00", "isUseful": false, "isNoise": true },
+        { "id": "upd_n3", "from": { "name": "Medium", "email": "noreply@medium.com" }, "subject": "Top stories for you today", "snippet": "", "receivedAt": "2026-05-22T20:00:00-04:00", "isUseful": false, "isNoise": true },
+        { "id": "upd_n4", "from": { "name": "Indeed", "email": "alerts@indeed.com" }, "subject": "5 new jobs matching your search", "snippet": "", "receivedAt": "2026-05-22T19:00:00-04:00", "isUseful": false, "isNoise": true },
+        { "id": "upd_n5", "from": { "name": "Product Hunt", "email": "digest@producthunt.com" }, "subject": "Today's top products", "snippet": "", "receivedAt": "2026-05-22T18:00:00-04:00", "isUseful": false, "isNoise": true },
+        { "id": "upd_n6", "from": { "name": "Notion", "email": "team@notion.so" }, "subject": "What's new in Notion", "snippet": "", "receivedAt": "2026-05-22T17:00:00-04:00", "isUseful": false, "isNoise": true }
+      ]
+    },
+    "forums": {
+      "newCount": 8,
+      "filteredAsNoise": 6,
+      "items": [
+        {
+          "id": "fr_1",
+          "from": { "name": "langchain-dev", "email": "group@langchain.com" },
+          "subject": "Breaking change affects your agent code",
+          "snippet": "v0.3 ships next week and changes the tool-binding signature.",
+          "receivedAt": "2026-05-23T04:00:00-04:00",
+          "isUseful": true,
+          "isNoise": false
+        },
+        {
+          "id": "fr_2",
+          "from": { "name": "indie-hackers", "email": "list@indiehackers.com" },
+          "subject": "Pricing thread you commented on has 12 replies",
+          "snippet": "Replies from Sasha, Erin, and 10 others.",
+          "receivedAt": "2026-05-23T02:30:00-04:00",
+          "isUseful": false,
+          "isNoise": false
+        }
+      ],
+      "filteredItems": [
+        { "id": "fr_n1", "from": { "name": "react-jobs", "email": "list@react.dev" }, "subject": "Weekly digest", "snippet": "", "receivedAt": "2026-05-22T22:00:00-04:00", "isUseful": false, "isNoise": true },
+        { "id": "fr_n2", "from": { "name": "hacker-news", "email": "noreply@ycombinator.com" }, "subject": "Top stories today", "snippet": "", "receivedAt": "2026-05-22T21:00:00-04:00", "isUseful": false, "isNoise": true }
+      ]
+    },
+    "promotions": {
+      "newCount": 49,
+      "filteredAsNoise": 47,
+      "items": [
+        {
+          "id": "pr_1",
+          "from": { "name": "Notion", "email": "billing@notion.so" },
+          "subject": "Renewal in 5 days — auto-renews at $96",
+          "snippet": "Your Notion Plus subscription renews on May 28.",
+          "receivedAt": "2026-05-23T05:00:00-04:00",
+          "isUseful": true,
+          "isNoise": false
+        },
+        {
+          "id": "pr_2",
+          "from": { "name": "Delta", "email": "noreply@delta.com" },
+          "subject": "Flight DL204 check-in opens in 18h",
+          "snippet": "JFK → SFO on May 24. Check-in window opens at 09:00 ET.",
+          "receivedAt": "2026-05-23T03:00:00-04:00",
+          "isUseful": true,
+          "isNoise": false
+        }
+      ],
+      "filteredItems": [
+        { "id": "pr_n1", "from": { "name": "Uniqlo", "email": "marketing@uniqlo.com" }, "subject": "Summer sale starts today", "snippet": "", "receivedAt": "2026-05-22T22:00:00-04:00", "isUseful": false, "isNoise": true },
+        { "id": "pr_n2", "from": { "name": "Spotify", "email": "no-reply@spotify.com" }, "subject": "Your weekly mix is here", "snippet": "", "receivedAt": "2026-05-22T20:00:00-04:00", "isUseful": false, "isNoise": true },
+        { "id": "pr_n3", "from": { "name": "Doordash", "email": "promos@doordash.com" }, "subject": "$10 off your next order", "snippet": "", "receivedAt": "2026-05-22T19:00:00-04:00", "isUseful": false, "isNoise": true }
+      ]
+    }
+  }
+}
