@@ -2,7 +2,7 @@
 
 Free, all-local morning briefing app. React frontend + FastAPI backend + Ollama LLM + SQLite storage.
 
-See [`../morning-briefing-free-local-stack.md`](../morning-briefing-free-local-stack.md) for the full design.
+See [`../docs/morning-briefing-free-local-stack.md`](../docs/morning-briefing-free-local-stack.md) for the full design.
 
 ## Prereqs
 
@@ -112,4 +112,4 @@ If Ollama is down or unreachable, the backend logs a warning and falls back to a
 - Replace `backend/app/sources/mock_inbox.py` with `gmail.py` (Google API client).
 - Replace stub `backend/app/api/auth.py` with real Google OAuth 2.0 flow.
 - Add `users` table for multi-account support.
-- See `../morning-briefing-agent-design.md` and `../morning-briefing-cost-estimate*.md` for the full plan.
+- See `../docs/morning-briefing-agent-design.md` for the full plan.
